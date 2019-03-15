@@ -1,6 +1,7 @@
 
 package com.kopitech.testsk;
-
+ 
+import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
@@ -18,5 +19,14 @@ public class RNSecureKeystoreModule extends ReactContextBaseJavaModule {
   @Override
   public String getName() {
     return "RNSecureKeystore";
+  }
+
+  @ReactMethod
+  public void isAvailable(final Promise promise) {
+    try {
+      promise.resolve(true);
+    } catch (Exception ex) {
+      promise.reject("ERR_UNEXPECTED_EXCEPTION", ex);
+    }
   }
 }
