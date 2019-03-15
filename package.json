@@ -1,6 +1,5 @@
-
 {
-  "name": "react-native-secure-keystore",
+  "name": "@yeehuipoh/react-native-secure-keystore",
   "version": "1.0.0",
   "description": "a learning project for react native module",
   "main": "index.js",
