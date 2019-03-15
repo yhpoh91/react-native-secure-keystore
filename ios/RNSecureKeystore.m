@@ -11,7 +11,7 @@ RCT_EXPORT_MODULE()
 
 RCT_EXPORT_METHOD(isAvailable:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
 {
-    resolve(@(YES))
+    resolve(@(YES));
 }
 
 @end
