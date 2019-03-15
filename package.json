@@ -2,7 +2,7 @@
 {
   "name": "react-native-secure-keystore",
   "version": "1.0.0",
-  "description": "",
+  "description": "a learning project for react native module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
